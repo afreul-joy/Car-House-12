@@ -16,7 +16,7 @@ const ShowReviews = () => {
                 <h1 className="text-secondary">Our Customer Reviews</h1>
             </div>
 
-            <div className="review-container">
+            <div className="review-container  container">
                 {
                     items.map(item => <Show
                         key={item._id}

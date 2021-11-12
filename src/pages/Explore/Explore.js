@@ -24,7 +24,7 @@ const Explore = ({ item }) => {
           Price : {price}
           </Typography>
 
-          <Link to={`/product/${_id}`}>  <Button variant="contained" className=""  sx={{ my:1 }} >Purchase</Button> </Link>
+          <Link to={`/purchase/${_id}`}>  <Button variant="contained" className=""  sx={{ my:1 }} >Purchase</Button> </Link>
           
       </CardContent>
         </Card>
