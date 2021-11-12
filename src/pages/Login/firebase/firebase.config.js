@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyBQijk8XUBmRxPMThIpKzsa4zjUoJpmFFk",
-    authDomain: "autozon-vehicle.firebaseapp.com",
-    projectId: "autozon-vehicle",
-    storageBucket: "autozon-vehicle.appspot.com",
-    messagingSenderId: "745730908271",
-    appId: "1:745730908271:web:2383b6dd9484f970e2ad9a"
+  apiKey: "AIzaSyBG5_C5-tuWxecT-qMJVtsF0p9O7Z_yVjU",
+  authDomain: "car-house-81fa4.firebaseapp.com",
+  projectId: "car-house-81fa4",
+  storageBucket: "car-house-81fa4.appspot.com",
+  messagingSenderId: "685040504489",
+  appId: "1:685040504489:web:c80dd760b3293f7906a3b8"
 };
 
-export default firebaseConfig;
+export default firebaseConfig; 

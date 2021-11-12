@@ -5,10 +5,12 @@ import Footer from '../Shared/Footer/Footer';
 import { Container, Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 
+// explore  section
+
 const Explores = () => {
     const [items, setItems] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://salty-cliffs-58044.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setItems(data))
     }, [])

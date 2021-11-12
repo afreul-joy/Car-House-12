@@ -5,6 +5,7 @@ import banner3 from '../../../img/carosol/img (3).jpg'
 
 import './Banner.css'
 
+// banner section
 const Banner = () => {
   return (
     <div id="carouselExampleDark" className="carousel  carousel-dark slide text-white" data-bs-ride="carousel">

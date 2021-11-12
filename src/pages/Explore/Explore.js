@@ -2,6 +2,7 @@ import { Button, Card, CardContent, CardMedia, Grid, Typography } from '@mui/mat
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// making explore section
 const Explore = ({ item }) => {
    const { name, description, price, img, _id } = item;
   return (

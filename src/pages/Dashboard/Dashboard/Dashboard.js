@@ -28,8 +28,6 @@ import ManageAllOrder from '../ManageAllOrder/ManageAllOrder';
 import AddProduct from '../AddProduct/AddProduct';
 import ManageProduct from '../ManageProducts/ManageProducts';
 import Review from '../Review/Review';
-
-
 const drawerWidth = 200;
 
 function Dashboard(props) {

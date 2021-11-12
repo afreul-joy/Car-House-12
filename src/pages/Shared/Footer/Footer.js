@@ -1,5 +1,6 @@
 import React from 'react';
 
+// footer section
 const Footer = () => {
   return (
       <div className="bg-secondary mt-4 py-3">

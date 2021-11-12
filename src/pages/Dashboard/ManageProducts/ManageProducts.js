@@ -6,7 +6,7 @@ const ManageProduct = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/products`)
+        fetch(`https://salty-cliffs-58044.herokuapp.com/products`)
             .then(res => res.json())
             .then(data => setProducts(data));
     }, [products]);
@@ -15,7 +15,7 @@ const ManageProduct = () => {
         console.log(id);
         const proceed = window.confirm("Are you sure, you want to delete?");
         if (proceed) {
-            fetch(`http://localhost:5000/deleteProduct/${id}`, {
+            fetch(`https://salty-cliffs-58044.herokuapp.com/deleteProduct/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())
