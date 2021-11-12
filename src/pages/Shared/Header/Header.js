@@ -25,7 +25,7 @@ const Navigation = () => {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        Autozon Vehicle Delears
+                        Car House
                     </Typography>
                     <NavLink style={{ textDecoration: 'none', color: 'white' }} to="/home">
                         <Button color="inherit">Home</Button>
